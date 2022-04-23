@@ -143,3 +143,19 @@ endif ()
 if (BUILD_API_TESTS)
     add_subdirectory("tests")
 endif ()
+
+
+############################################################
+# Add my project into the sc2api
+
+add_subdirectory("project/pathing")
+set_target_properties(pathing PROPERTIES FOLDER project)
+
+add_subdirectory("project/micro_kiting")
+set_target_properties(micro_kiting PROPERTIES FOLDER project)
+
+add_subdirectory("project/test")
+set_target_properties(test PROPERTIES FOLDER project)
+
+add_subdirectory("project/pathing_2agent")
+set_target_properties(pathing_2agent PROPERTIES FOLDER project)

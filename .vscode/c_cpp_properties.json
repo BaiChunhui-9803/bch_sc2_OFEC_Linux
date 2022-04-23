@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/c++/7/**",
+                "/usr/include/x86_64-linux-gnu/c++/7/**",
+                "/usr/include/c++/7/backward/**",
+                "/usr/lib/gcc/x86_64-linux-gnu/7/include/**",
+                "/usr/local/include/**",
+                "/usr/include/x86_64-linux-gnu/**",
+                "/usr/include/**",
+                "/home/baichunhui/sc2/sc2api/include/sc2api/**",
+                "/usr/include/c++/9/**",
+                "/usr/include/x86_64-linux-gnu/c++/9/**",
+                "/usr/include/c++/9/backward/**",
+                "/usr/lib/gcc/x86_64-linux-gnu/9/include/**",
+                "/usr/local/include/**",
+                "/usr/include/x86_64-linux-gnu/**",
+                "/usr/include/**",
+                "${workspaceFolder}/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
